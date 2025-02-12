@@ -1,5 +1,5 @@
 [project]
-name = "PDF anonymizer tool"
+name = "anonymizertool"
 version = "0.1.0"
 description = "A sofisticated tool that can anonimize content and give embedding-ready JSON files."
 requires-python = ">=3.11"
