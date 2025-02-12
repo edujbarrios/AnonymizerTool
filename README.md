@@ -2,12 +2,18 @@
 
 A tool that allows users to upload a PDF and get an anonimized PDF or embedding JSON files.
 
-It can anonymize:
+It can anonymize through regex:
 
 - Spanish IDs (NIF / DNI)
 - email
 - phone
 - adress
+
+### Example:
+
+```python
+'email': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+```
 
 **More keywords can be added by using specific regex by editing `src/utils.py` and the function `aonymize_text()`**
 
