@@ -1,8 +1,8 @@
 [project]
-name = "anonymizertool"
+name = "pdf-anonymizer-tool"
 version = "0.1.0"
-description = "A sofisticated tool that can anonimize content and give embedding-ready JSON files."
-requires-python = ">=3.11"
+description = "A sophisticated tool that can anonymize content and give embedding-ready JSON files."
+requires-python = ">=3.11,<4"
 dependencies = [
     "anthropic>=0.45.2",
     "openai>=1.61.1",
