@@ -1,5 +1,7 @@
 # PDF anonymizer tool
 
+### https://anonymizertool.streamlit.app/
+
 A tool that allows users to upload a PDF and get an anonimized PDF or embedding JSON files.
 
 It can anonymize through regex:
